@@ -16,4 +16,16 @@ git add filename - stages file
 git commit -m "commit message" - committing files in the staging area
 git rm --cached filename - removes a file from staging area
 
+git reset - removes all files in the staging area
+git log - see commit history
+git log --oneline - shortens commit history
+
+Branching 
+
+git branch newBranchName - creates a new branch
+git branch -a - lists all branches
+git switch branchName - switches to a branch
+git merge branchName - merges branch into branch we are oneline
+git branch -d branchName - deletes branch if merged in master branch
+git commit -m "Added commands about branches"git remote add origin https://github.com/cloudyweather/BSF-OCC-Bootcamp.git
 
